@@ -1,0 +1,186 @@
+/*全局元素初始配置开始*/
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-decoration:none;
+    font-size:12px;
+}
+
+html body{
+    background-color:#f4f4f4a1;
+}
+/*全局元素初始配置结束*/
+/*顶部样式开始*/
+#main-top-box{
+    width:100%;
+    height:30px;
+    background-color:#f9f3f3;
+}
+
+#main-top-box .top-center-box{
+    width:1100px;
+    height:35px;
+    margin:0 auto;
+}
+
+#main-top-box .top-center-box .center-left{
+    display:block;
+    width:1005px;
+    height:35px;
+    line-height:35px;
+    color:#666;
+    float:left;
+}
+#main-top-box .top-center-box a{
+    color:#555;
+    text-align:center;
+    line-height:35px;
+}
+/*顶部样式结束*/
+
+/*logo区域开始*/
+#main-logo-box{
+    width:100%;
+    height:130px;
+    background-color:#fff;
+}
+#main-logo-box .center-logo{
+    width:1100px;
+    height:130px;
+    margin:0 auto;
+}
+#main-logo-box .center-logo .logo-left,
+#main-logo-box .center-logo .logo-right{
+    width:550px;
+    height:120px;
+    float:left;
+}
+#main-logo-box .center-logo .logo-left img{
+    width:200px;
+    margin-top:27px;
+}
+
+#main-logo-box .center-logo .logo-right .logo-right-box li{
+    float:left;
+    width:50px;
+    height:55px;
+    margin-right:20px;
+}
+#main-logo-box .center-logo .logo-right .logo-right-box img{
+    width:35px;
+    height:35px;
+    margin-left:7px;
+}
+#main-logo-box .center-logo .logo-right .logo-right-box p{
+    text-align:center;
+    color:#666;
+}
+#main-logo-box .center-logo .logo-right .logo-right-box{
+    float:right;
+    margin-top:32px;
+}
+/*logo区域结束*/
+/*菜单栏开始*/
+#main-menu-box{
+    width:100%;
+    height:35px;
+    background-color:#447eec;
+    margin-bottom:10px;
+}
+#main-menu-box .menu-center{
+    width:1100px;
+    height:35px;
+    margin:0 auto;
+}
+#main-menu-box .menu-center a{
+    display:block;
+    width:100px;
+    height:32px;
+    float:left;
+    line-height:35px;
+    text-align:center;
+    font-size:18px;
+    color:#fff;
+}
+#main-menu-box .menu-center a:hover{
+    border-bottom:3px solid #e500a0;
+    color:#e500a0;
+}
+/*菜单栏结束*/
+
+/*整体内容区域开始*/
+#main-content-box{
+    width:1100px;
+    height:1766px;
+    margin:0 auto;
+    background-color:#fff;
+}
+
+#main-content-box .content-top{
+    width:100%;
+    height:30px;
+    background-color:#fafafa;
+    border-bottom:1px solid #ecebeb;
+}
+#main-content-box .content-top span{
+    line-height:30px;
+    margin-left:8px;
+    color:#777;
+}
+#main-content-box .content-top a{
+    color:#666;
+    margin-left:5px;
+}
+
+#main-content-box .content-bottom{
+    width:100%;
+    height:1820px;
+    border:1px solid #ddd;
+}
+
+#main-content-box .content-bottom .content-bottom-top{
+    width:100%;
+    height:80px;
+    border-bottom:1px solid #ddd;
+}
+#main-content-box .content-bottom .content-bottom-top h1{
+    color:#333;
+    font-size:20px;
+    text-align:center;
+    line-height:80px;
+}
+#main-content-box .content-bottom .content-bottom-bottom{
+    width:1000px;
+    height:100%;
+    margin:0 auto;
+    padding-top:10px;
+}
+
+#main-content-box .content-bottom .content-bottom-bottom p{
+    font-size:15px;
+    text-indent:2em;
+    color:black;
+    line-height:23px;
+}
+#main-content-box .content-bottom .content-bottom-bottom img{
+    display:inherit;
+    margin:0 auto; 
+    margin-top:15px; 
+}
+/*整体内容区域结束*/
+/*关于区域开始*/
+#main-guanyu-box{
+    width:100%;
+    height:150px;
+    background-color:#555;
+    margin-top:15px;
+    padding-top:50px;
+}
+#main-guanyu-box a{
+    color:black;
+}
+#main-guanyu-box li{
+    text-align:center;
+}
+/*关于区域结束*/

@@ -1,0 +1,351 @@
+﻿/*全局元素初始配置开始*/
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-decoration:none;
+    font-size:12px;
+}
+
+html body{
+    background-color:#f4f4f4a1;
+}
+/*全局元素初始配置结束*/
+/*顶部样式开始*/
+#main-top-box{
+    width:100%;
+    height:30px;
+    background-color:#f9f3f3;
+}
+
+#main-top-box .top-center-box{
+    width:1100px;
+    height:35px;
+    margin:0 auto;
+}
+
+#main-top-box .top-center-box .center-left{
+    display:block;
+    width:1005px;
+    height:35px;
+    line-height:35px;
+    color:#666;
+    float:left;
+}
+#main-top-box .top-center-box a{
+    color:#555;
+    text-align:center;
+    line-height:35px;
+}
+/*顶部样式结束*/
+
+/*logo区域开始*/
+#main-logo-box{
+    width:100%;
+    height:130px;
+    background-color:#fff;
+}
+#main-logo-box .center-logo{
+    width:1100px;
+    height:130px;
+    margin:0 auto;
+}
+#main-logo-box .center-logo .logo-left,
+#main-logo-box .center-logo .logo-right{
+    width:550px;
+    height:120px;
+    float:left;
+}
+#main-logo-box .center-logo .logo-left img{
+    width:200px;
+    margin-top:27px;
+}
+
+#main-logo-box .center-logo .logo-right .logo-right-box li{
+    float:left;
+    width:50px;
+    height:55px;
+    margin-right:20px;
+}
+#main-logo-box .center-logo .logo-right .logo-right-box img{
+    width:35px;
+    height:35px;
+    margin-left:7px;
+}
+#main-logo-box .center-logo .logo-right .logo-right-box p{
+    text-align:center;
+    color:#666;
+}
+#main-logo-box .center-logo .logo-right .logo-right-box{
+    float:right;
+    margin-top:32px;
+}
+/*logo区域结束*/
+/*菜单栏开始*/
+#main-menu-box{
+    width:100%;
+    height:35px;
+    background-color:#447eec;
+    margin-bottom:10px;
+}
+#main-menu-box .menu-center{
+    width:1100px;
+    height:35px;
+    margin:0 auto;
+}
+#main-menu-box .menu-center a{
+    display:block;
+    width:100px;
+    height:32px;
+    float:left;
+    line-height:35px;
+    text-align:center;
+    font-size:18px;
+    color:#fff;
+}
+#main-menu-box .menu-center a:hover{
+    border-bottom:3px solid #e500a0;
+    color:#e500a0;
+}
+/*菜单栏结束*/
+
+/*整体内容区域开始*/
+#main-content-box{
+    width:1100px;
+    height:1766px;
+    margin:0 auto;
+    background-color:#fff;
+}
+
+#main-content-box .content-top{
+    width:100%;
+    height:30px;
+    background-color:#fafafa;
+    border-bottom:1px solid #ecebeb;
+}
+#main-content-box .content-top span{
+    line-height:30px;
+    margin-left:8px;
+    color:#777;
+}
+#main-content-box .content-top a{
+    color:#666;
+    margin-left:5px;
+}
+
+#main-content-box .content-bottom{
+    width:100%;
+    height:1735px;
+}
+#main-content-box .content-bottom .content-bottom-left{
+    width:720px;
+    height:1712px;
+    float:left;
+    margin:10px 10px 10px 10px;
+}
+
+#main-content-box .content-bottom .content-bottom-left li{
+    display:inline-block;
+    width:100%;
+    height:205px;
+    background-color:#fff8f8;
+    margin-top:5px;
+}
+#main-content-box .content-bottom .content-bottom-left .img-left-shetuan{
+    width:262px;
+    height:205px;
+    float:left;
+}
+#main-content-box .content-bottom .content-bottom-left .img-left-shetuan img{
+    width:250px;
+    margin:5px 0px 0px 5px;
+    border-radius:10px;
+}
+#main-content-box .content-bottom .content-bottom-left .img-right-shetuan{
+    width:450px;
+    height:205px;
+    float:right;
+}
+#main-content-box .content-bottom .content-bottom-left .img-right-shetuan .right-top-shetuan{
+    width:100%;
+    height:50px;
+}
+#main-content-box .content-bottom .content-bottom-left .img-right-shetuan .right-conter-shetuan{
+    width:441px;
+    height:83px;
+    padding:5px 5px 5px 5px;
+}
+#main-content-box .content-bottom .content-bottom-left .img-right-shetuan .right-conter-shetuan p{
+    text-indent:2em;
+    word-break: break-all;
+}
+#main-content-box .content-bottom .content-bottom-left .img-right-shetuan .right-bottom-shetuan{
+    width:100%;
+    height:60px;
+}
+#main-content-box .content-bottom .content-bottom-left .img-right-shetuan .right-bottom-shetuan .ico-liaojie{
+    display:inline-block;
+    width:150px;
+    height:50px;
+    background:url(../images/jiaruliaojie.png);
+    background-position-y: -40px;
+    background-size:100%;
+    margin:10px 0px 0px 50px;
+}
+#main-content-box .content-bottom .content-bottom-left .img-right-shetuan .right-bottom-shetuan .ico-liaojie:hover{
+    background-position-y: -107px;
+}
+#main-content-box .content-bottom .content-bottom-left .img-right-shetuan .right-bottom-shetuan .ico-lijijiaru{
+    display:inline-block;
+    width:150px;
+    height:50px;
+    background:url(../images/jiaruliaojie.png);
+    background-position-y: -176px;
+    background-size:100%;
+}
+#main-content-box .content-bottom .content-bottom-left .img-right-shetuan .right-bottom-shetuan .ico-lijijiaru:hover{
+    background-position-y: -243px;
+}
+#main-content-box .content-bottom .content-bottom-left .img-right-shetuan .right-top-shetuan h2{
+    font-size:18px;
+    line-height:50px;
+}
+
+
+#main-content-box .content-bottom .content-bottom-right{
+    width:350px;
+    height:1713px;
+    float:right;
+    margin:10px 10px 10px 0px
+}
+#main-content-box .content-bottom .content-bottom-right .tongzhi-main{
+    width:100%;
+    height:1070px;
+    border:1px solid #ddd;
+}
+
+#main-content-box .content-bottom .content-bottom-right .tongzhi-main .tongzhi-top{
+    width:100%;
+    height:40px;
+    border-bottom:1px solid #ddd;
+}
+#main-content-box .content-bottom .content-bottom-right .tongzhi-main .tongzhi-top i{
+    display: inline-block;
+    width:30px;
+    height:30px;
+    background:url(../images/huo.png)no-repeat;
+    background-size:100%;
+    margin:5px 0px 0px 5px;
+}
+#main-content-box .content-bottom .content-bottom-right .tongzhi-main .tongzhi-top span{
+    position:relative;
+    top:-7px;
+    left:-2px;
+    color:#666;
+    font-size:18px;
+}
+
+#main-content-box .content-bottom .content-bottom-right .tongzhi-main .tongzhi-bottom {
+    width:100%;
+    height:360px;
+}
+#main-content-box .content-bottom .content-bottom-right .tongzhi-main .tongzhi-bottom li{
+    display:inline-block;
+    width:100%;
+    height:100px;
+}
+#main-content-box .content-bottom .content-bottom-right .tongzhi-main .tongzhi-bottom img{
+    width:100px;
+    height:100px;
+    float:left;
+}
+#main-content-box .content-bottom .content-bottom-right .tongzhi-main .tongzhi-bottom div{
+    width:230px;
+    height:80px;
+    float:right;
+    margin:10px 10px 10px 10px;
+}
+#main-content-box .content-bottom .content-bottom-right .tongzhi-main .tongzhi-bottom  .ico-zhaohu{
+    display:inline-block;
+    width:80px;
+    height:30px;
+    background:url(../images/xinjiaru.png);
+    background-size:100%;
+    background-position-y:170px;
+    margin-left:20px;
+}
+#main-content-box .content-bottom .content-bottom-right .tongzhi-main .tongzhi-bottom  .ico-zhaohu:hover{
+    background-position-y:-53px;
+}
+#main-content-box .content-bottom .content-bottom-right .tongzhi-main .tongzhi-bottom  .ico-haoyou{
+    display:inline-block;
+    width:80px;
+    height:30px;
+    background:url(../images/xinjiaru.png);
+    background-size:100%;
+    background-position-y:98px;
+}
+#main-content-box .content-bottom .content-bottom-right .tongzhi-main .tongzhi-bottom  .ico-haoyou:hover{
+    background-position-y:62px;
+}
+
+/*热门排名区域开始*/
+#paiming-main{
+    width:100%;
+    height:400px;
+    border:1px solid #ddd;
+    margin-top:20px;
+}
+
+#paiming-main .paiming-top{
+    width:100%;
+    height:40px;
+    border-bottom:1px solid #ddd;
+}
+#paiming-main .paiming-top .ico-paiming{
+    display:inline-block;
+    width:30px;
+    height:30px;
+    background:url(../images/paiming.png)no-repeat;
+    background-size:100%;
+    margin:7px 10px 5px 10px;
+}
+#paiming-main .paiming-top h2{
+    display:inline-block;
+    color:#666;
+    font-size:18px;
+    position:relative;
+    top:-15px;
+    left:-6px;
+}
+#paiming-main .paiming-bottom{
+    width:100%;
+    height:100%;
+}
+#paiming-main .paiming-bottom li{
+    display:inline-block;
+    width:100%;
+    height:30px;
+    margin:3px 5px 3px 10px;
+}
+#paiming-main .paiming-bottom a{
+    font-size:15px;
+    color:#666;
+}
+/*热门排名区域结束*/
+/*整体内容区域结束*/
+/*关于区域开始*/
+#main-guanyu-box{
+    width:100%;
+    height:150px;
+    background-color:#555;
+    margin-top:15px;
+    padding-top:50px;
+}
+#main-guanyu-box a{
+    color:black;
+}
+#main-guanyu-box li{
+    text-align:center;
+}
+/*关于区域结束*/
